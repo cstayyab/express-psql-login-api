@@ -1,0 +1,24 @@
+{
+  "name": "psql-login-sys",
+  "version": "0.1.0",
+  "description": "A simple authentication API using Express.js and Postgres DB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Tayyab Sheikh <cstayyab@gmail.com> (https://cstayyab.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cstayyab/express-psql-login-api.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  }
+}
